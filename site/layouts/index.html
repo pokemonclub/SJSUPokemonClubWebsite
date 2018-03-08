@@ -1,0 +1,33 @@
+{{ define "main" }}
+	{{ if not .Site.Params.about.hide }}
+		{{ partial "about" . }}
+	{{ end }}
+
+	{{ if not .Site.Params.calendar.hide }}
+		{{ partial "calendar" . }}
+	{{ end }}
+
+	{{ if not .Site.Params.tournament_regulations.hide }}
+		{{ partial "tournament_regulations" . }}
+	{{ end }}
+
+	{{ if not .Site.Params.tournaments.hide }}
+		{{ partial "tournaments" . }}
+	{{ end }}
+
+	{{ if not .Site.Params.officers.hide }}
+		{{ partial "officers" . }}
+	{{ end }}
+
+	{{ if not .Site.Params.portfolio.hide }}
+		{{ partial "portfolio" . }}
+	{{ end }}
+
+	{{ if not .Site.Params.recentposts.hide }}
+		{{ partial "recent-posts" . }}
+	{{ end }}
+
+	{{ if not .Site.Params.contact.hide }}
+		{{ partial "contact" . }}
+	{{ end }}
+{{ end }}

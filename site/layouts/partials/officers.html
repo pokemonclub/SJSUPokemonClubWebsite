@@ -1,0 +1,6 @@
+<section>
+	<header class="major">
+		{{ with .Site.Params.officers.title }}<h2>{{ . | markdownify }}</h2>{{ end }}
+	</header>
+	<div width="100%" style="overflow:scroll">{{ with .Site.Params.officers.content }}<p>{{ . | markdownify }}</p>{{ end }}</div>
+</section>

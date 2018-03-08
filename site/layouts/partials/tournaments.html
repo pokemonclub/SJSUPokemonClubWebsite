@@ -1,0 +1,6 @@
+<section>
+	<header class="major">
+		{{ with .Site.Params.tournaments.title }}<h2>{{ . | markdownify }}</h2>{{ end }}
+	</header>
+	<div width="100%" style="max-height:800px;overflow-y:scroll;">{{ with .Site.Params.tournaments.content }}<p>{{ . | markdownify }}</p>{{ end }}</div>
+</section>

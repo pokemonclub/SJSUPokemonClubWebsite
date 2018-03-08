@@ -1,0 +1,178 @@
+baseurl = "/"
+languageCode = "en-us"
+title = "Pokemon Club"
+theme = "hugo-strata-theme"
+disqusShortname = "spf13"
+# Enable Google Analytics by inserting your tracking code
+googleAnalytics = ""
+# Define how many posts should appear on a site
+paginate = 10
+
+[params]
+  # To provide some metadata for search engines feel free to add a few
+    # information about you and your website.
+  name = "Nicholas Boyd"
+  description = "Website for information on Pokemon Club, an SJSU Student Organization"
+
+  # Format dates with Go's time formatting
+  date_format = "2006-01-02"
+
+  # Add read time estimates in the format "X min read"
+  show_read_time = false
+
+  # Add custom assets with their paths relative to the static folder
+  custom_js   = []
+  custom_css  = []
+
+
+  [params.sidebar]
+  # Replace the avatar with a picture of your own under static/images
+  avatar = "avatar.jpg"
+  # Use Markdown to format the string. This works nearly all over the theme
+  bio = "**Welcome to the Pokémon Club Website!**<br> Here we have basic club info, and soon we'll also have a contact form!<br> If you haven't already, <a href=\"https://docs.google.com/forms/d/e/1FAIpQLSenLcKhnQpqiUgfmRvKnJ4XOTaeqiXxnfTJfjIN6PyVgjoXDg/viewform\">Sign Up Here!</a>"
+  # The icons will be shown if you enter your username
+  twitter = "spf13"
+  github = "spf13"
+  gitlab = "spf13"
+  dribbble = ""
+  facebook = ""
+  googleplus = ""
+  flickr = ""
+  linkedin = ""
+
+  copyright = [
+  "&copy; Nicholas Boyd",
+  "Design: [HTML5 UP](//html5up.net)",
+  "Demo Images: [Unsplash](//unsplash.com/)"
+  ]
+
+
+  [params.about]
+  hide  = false
+  title = "About Us"
+  content = "[Join Us!](https://docs.google.com/forms/d/e/1FAIpQLSenLcKhnQpqiUgfmRvKnJ4XOTaeqiXxnfTJfjIN6PyVgjoXDg/viewform)<br>This club draws on nostalgia and is a growing community that is welcoming to all who share the same interest, or are just beginning to share that interest! Pokemon Club is new to Campus as of Spring 2015, but it is undeniable that this club provides its members with a sense of community outside of their rooms and outside of their jobs. Come join us at club, make new friends, rivals, and discover what it is like to be a part of our growing community. Remember, anyone can join, and there are no member fees! [Sign up here!](https://docs.google.com/forms/d/e/1FAIpQLSenLcKhnQpqiUgfmRvKnJ4XOTaeqiXxnfTJfjIN6PyVgjoXDg/viewform) You can also buy our Club T-shirt [here!](https://www.teepublic.com/show/372613-pokemon-club-t-shirt-2016)"
+
+  [params.calendar]
+  hide = false
+  title = "Calendar"
+  content = "Every month we will have events prepared for our members. These events include game nights, movie nights, tournaments, and various collaborations. Keep an eye out for our upcoming events- they are available on this calendar. <br>More details and information about each event of this month can be found [here](https://www.facebook.com/groups/SJSUPKMN/)."
+
+  [params.officers]
+  hide = false
+  title = "Officers"
+  content = """
+  Semester                                | President(s)                              | Vice President | Treasurer   | Secretary     | Historian         | Event Coordinator | Publicist               | Media Manager      | Web Developer | Jr. Web Developer | Intern
+  ----------------------------------------|-------------------------------------------|----------------|-------------|---------------|-------------------|-------------------|-------------------------|--------------------|---------------|-------------------|-------
+  Fall 2017: Fresh Region                 | Shawn Jones-Trammell, Patrick Rettinhouse | N/A            | Jason Yan   | Kevin Nguyen  | N/A               | Tad Mikasa        | N/A                     | Eduardo Martinez   | Nick Boyd     | N/A               | N/A
+  Spring 2017: Another New Game           | Khaila Zherine Flores                     | William Giallo | Jason Yan   | Kevin Nguyen  | N/A               | Tad Mikasa        | Roxas Nick              | Eduardo Martinez   | Nick Boyd     | Claire Koperwas   | Patrick Rettinhouse
+  Fall 2016: Steeling the Sun             | Khaila Zherine Flores                     | William Giallo | Jason Yan   | Shayda Sophia | Rianna Nandan     | Tad Mikasa        | Roxas Nick              | Eduardo Martinez   | Nick Boyd     | Claire Koperwas   | N/A
+  Spring 2016: Dawn of the Pokemon League | Khaila Zherine Flores                     | William Giallo | Jose Madrid | Shayda Sophia | Javier Ayala-Mora | Tad Mikasa        | Alex Nguyen, Roxas Nick | Eduardo Martinez   | Nick Boyd     | Claire Koperwas   | N/A
+  Fall 2015: The Great Expansion          | Khaila Zherine Flores, James Escoto       | N/A            | Jose Madrid | Shayda Sophia | Javier Ayala-Mora | Tad Mikasa        | Alex Nguyen             | N/A                | Nick Boyd     | Jason Yan         | N/A
+  Spring 2015: New Game                   | Khaila Zherine Flores, James Escoto       | N/A            | Jose Madrid | Nick Boyd     | N/A               | N/A               | Alex Nguyen             | N/A                | N/A           | N/A               | N/A
+  """
+
+  [params.tournament_regulations]
+  hide = false
+  title = "Tournament Regulations"
+  content = """
+  Link                                                                                                                    | Active?
+  ------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------
+  [Regulations for ALL Tournaments](https://docs.google.com/document/d/1d5JiFS_6BsYqIfMRnN7J20UPxzovNyXQ179j2T9YVAo/edit) | <p style="color:green;outline-color:black;">Active</p>
+  [Contest Tournament](https://docs.google.com/document/d/1q15GqdMIj3aiA3s64VkQRVKDJdbry0dsh2YZKelb9-w/edit)              | <p style="color:red;outline-color:black;">Inactive</p>
+  [Favorite Pokemon](https://docs.google.com/document/d/1Oi0WhzGesphmcFN4FWQk3DlJ_i-x3mFZZkVdVatRvUY/edit?usp=sharing)    | <p style="color:green;outline-color:black;">Active</p>
+  [Generation 1 Tournament](https://docs.google.com/document/d/1asPIVJJLAUJJiKZlfovNGp2ehuDs6oCmmeJPLhWHY4s/edit)         | <p style="color:red;outline-color:black;">Inactive</p>
+  [Gym Regulations](https://docs.google.com/document/d/1Je7YDFOZtfAMwj9iELk-ZcIArCQJhAHKByBCUE3LpP8/edit)                 | <p style="color:red;outline-color:black;">Inactive</p>
+  [Halloween](https://docs.google.com/document/d/1kdOmbO2ed2YTkEWv-oe2aD2rwAo8_nDSpQfgplIk11Q/edit?usp=sharing)           | <p style="color:green;outline-color:black;">Active</p>
+  [Little Cup](https://docs.google.com/document/d/1sNPHsBBkmCBHNQLbrE-WLu5uuDwA5Oyhmx1jOtJuBbA/edit)                      | <p style="color:red;outline-color:black;">Inactive</p>
+  [Monochrome](https://docs.google.com/document/d/1MnnYwcmwCZFYDc8qf3UPaj0jVnhD3KL0PWoVMHKAZMA/edit)                      | <p style="color:red;outline-color:black;">Inactive</p>
+  [Monotype](https://docs.google.com/document/d/1ulhvToTeYAy1GK7jaNPlTNUXa0mrdtygj-FVAzwTWbc/edit?usp=sharing)            | <p style="color:green;outline-color:black;">Active</p>
+  [Never Used](https://docs.google.com/document/d/1t2TIuIz8kkz1UFA50STbpuc72n7OTxB5QyCEgK0dJI8/edit?usp=sharing)          | <p style="color:green;outline-color:black;">Active</p>
+  [Not Fully Evolved (NFE)](https://docs.google.com/document/d/16WUmQfOOjksfjkBVevBS6zxz-WQMPxaMDuFM2I60yBE/edit)         | <p style="color:red;outline-color:black;">Inactive</p>
+  [Over Used](https://docs.google.com/document/d/1mxHoxztFC5nWjzU5sLomVmFZQwlAuMvnmReiOkP_9UM/edit)                       | <p style="color:red;outline-color:black;">Inactive</p>
+  [OU Draft](https://docs.google.com/document/d/1T3W_VsrZBEPngOdFnJU531By72sBjATPef9AJI8EqXs/edit)                        | <p style="color:red;outline-color:black;">Inactive</p>
+  [Point Buy](https://docs.google.com/document/d/1lA4bK2z5ehU4_DO4AIOXAg_KCDmZQhADB3qD9CIvUnA/edit)                       | <p style="color:red;outline-color:black;">Inactive</p>
+  [Saint Patrick's Day](https://docs.google.com/document/d/1_rzUVCSVMF6zN453l3auAjTzqyM1_xTijDxDn_bYFpA/edit)             | <p style="color:red;outline-color:black;">Inactive</p>
+  [Steal Yo Pokes](https://docs.google.com/document/d/1ZG0CCfdZwnkK6p_ZYIM5b1Xj0k8-9G2vjd0VgxspGjo/edit)                  | <p style="color:red;outline-color:black;">Inactive</p>
+  [Team Battle](https://docs.google.com/document/d/108gnHE_Gacj8aEkdSt4mY-PZ8TWHTXd3OgxQKuD2hJY/edit)                     | <p style="color:red;outline-color:black;">Inactive</p>
+  [Team Builder](https://docs.google.com/document/d/13gWOnTRv6mcjoqAslxa7VeBM2vB-F7GO71SIeMkHTwQ/edit)                    | <p style="color:red;outline-color:black;">Inactive</p>
+  [Team Rocket](https://docs.google.com/document/d/1ZG0CCfdZwnkK6p_ZYIM5b1Xj0k8-9G2vjd0VgxspGjo/edit?usp=sharing)         | <p style="color:green;outline-color:black;">Active</p>
+  [Tier Rotation](https://docs.google.com/document/d/1VDKwWH9FjWv3UZbCMwIKAl7WNDnhSH1r0g5KxEymAxY/edit)                   | <p style="color:red;outline-color:black;">Inactive</p>
+  [Ubers](https://docs.google.com/document/d/1o7C7RdxOGGt6tnWpyowq78-1ILPYIHmScMluaPHizxo/edit)                           | <p style="color:red;outline-color:black;">Inactive</p>
+  [VGC](https://docs.google.com/document/d/1czvrFG9eMvloleFIT8Pn0X_mPWgTRZi4SRsPfecjjeY/edit?usp=sharing)                 | <p style="color:green;outline-color:black;">Active</p>"""
+
+  [params.tournaments]
+  hide = false
+  title = "Tournaments"
+  content = """
+  Tournament      | Date       | First                         | Second                              | Third                              | Link
+  --------------- | ---------- | ----------------------------- | ----------------------------------- | ---------------------------------- | ----
+  Halloween       | 10/27/2017 | TBD                           | TBD                                 | TBD                                | [Link](http://challonge.com/F17HT "Halloween")
+  NU              | 10/13/2017 | Nick Boyd                     | Rianna "Bops" Nandan                | Matt Griffin                       | [Link](http://challonge.com/SJSUNUF2017 "NU")
+  VGC             | 09/29/2017 | Andrew TBD                    | Kevin Nguyen                        | Anna Wong                          | [Link](http://challonge.com/SJSUVGC17F "VGC")
+  Team Rocket 2.0 | 09/15/2017 | TBD                           | TBD                                 | TBD                                | [Link](http://challonge.com/SJSUTR2017F "Team Rocket 2.0")
+  Team Rocket     | 02/03/2017 | Nick Boyd                     | Will Giallo                         | Ed Martinez                        | [Link](http://challonge.com/SJSUTR2017 "Team Rocket ")
+  Monotype        | 12/02/2016 | Rianna "Bops" Nandan          | Nick Boyd                           | Yair Aragundi                      | [Link](http://challonge.com/MonotypeFall16 "Monotype")
+  Find a Friend   | 11/04/2016 | Will and Shayda               | Tad and Mitchell                    | Sean and Claude                    | [Link](http://challonge.com/TT2016F "Find a Friend")
+  Halloween       | 10/28/2016 | Raymond                       | Tad Mikasa                          | Rianna "Bops" Nandan               | [Link](http://challonge.com/HALLOWTOURNEYF2016 "Halloween")
+  Draft           | 10/14/2016 | Will Giallo                   | Chris Ngai                          | Nick Boyd                          | [Link](http://challonge.com/DraftTourneyF2016 "Draft")
+  Teambuilder     | 06/23/2016 | Shashwath                     | Jordan                              | Javier Ayala                       | [Link](http://challonge.com/TBTSJSUF2016 "Teambuilder")
+  OU              | 06/09/2016 | Tad Mikasa                    | Raymond                             | Joe Giallo                         | [Link](http://challonge.com/SJSUOUTOURNEY2016FALL "OU")
+  Monotype        | 05/06/2016 | Rianna "Bops" Nandan          | Shayda Sophia                       | Alex Vargas                        | [Link](http://challonge.com/2016springmonotypetourney "Monotype")
+  OU Draft        | 04/22/2016 | Chris Ngai                    | Tad Mikasa                          | Ty Garcia                          | [Link](http://challonge.com/2016SpringDraftTournament "OU Draft")
+  Cute            | 03/18/2016 | Shayda Sophia                 | Javier Ayala                        | Brenna Botzheim                    | No Link
+  NU              | 03/04/2016 | Javier Ayala                  | Claude Michel                       | Will Giallo                        | [Link](http://challonge.com/sjsunuspring2016 "NU")
+  Gen 1           | 02/26/2016 | Manuel Saucedo                | Javier Ayala                        | Will Giallo                        | No Link
+  Team Battle     | 02/19/2016 | Shayda Sophia and Alex Vargas | Tad Mikasa and Rianna "Bops" Nandan | Will Giallo and Joe Giallo         | No Link
+  OU              | 02/05/2016 | Javier Ayala                  | Tad Mikasa                          | Ty Garcia                          | No Link
+  Monotype        | 11/20/2015 | Nick Boyd                     | Rianna "Bops" Nandan                | Ty Garcia                          | [Link](http://challonge.com/sjsumonotypefall2015 "Monotype")
+  Halloween       | 10/30/2015 | Javier Ayala                  | Tad Mikasa                          | Chris Ngai                         | No Link
+  Little Cup      | 10/16/2015 | Nick Boyd                     | Shayda Sophia                       | Will Giallo and Alex Vargas - tied | No Link
+  Draft           | 10/02/2015 | Yair                          | Tad Mikasa                          | Chris Ngai                         | No Link
+  Monochrome      | 09/18/2015 | Eduardo                       | Javier Ayala                        | Alex Nguyen                        | No Link
+  OU              | 09/04/2015 | Javier Ayala                  | Chris Ngai                          | Shayda Sophia                      | No Link
+  OU              | 04/24/2015 | Jason Yan                     | Khaila Flores                       | NA                                 | No Link
+  VGC             | 04/08/2015 | Sergio Camacho                | Javier Ayala                        | Jason Yan                          | No Link
+  Little Cup      | 03/13/2015 | Shayda Sophia                 | Tad Mikasa                          | Jose Madrid                        | No Link
+  Never Used      | 02/25/2015 | Jose Madrid                   | Jason Yan                           | James Escoto                       | No Link"""
+
+  [params.contact]
+  hide  = false
+  title = "Get In Touch"
+  content = "Accumsan pellentesque commodo blandit enim arcu non at amet id arcu magna. Accumsan orci faucibus id eu lorem semper nunc nisi lorem vulputate lorem neque lorem ipsum dolor."
+
+  # This can be exact coordinates or a searchable address in google maps
+  gmaps_address = "39.7889055,-120.5443524"
+  address = [
+  "1234 Somewhere Rd.",
+  "Nashville, TN 00000",
+  "United States"
+  ]
+  phone = "000-000-0000"
+
+  # Since this template is static, the contact form uses www.formspree.io as a
+  # proxy. The form makes a POST request to their servers to send the actual
+  # email. Visitors can send up to a 1000 emails each month for free.
+      #
+      # What you need to do for the setup?
+      #
+      # - set your email address under 'email' below
+      # - upload the generated site to your server
+      # - send a dummy email yourself to confirm your account
+      # - click the confirm link in the email from www.formspree.io
+      # - you're done. Happy mailing!
+  email = "hello@example.com"
+
+  [params.contact.form]
+  # Set custom strings for the form if your native
+  # language isn't English
+  name = "Name"
+  email = "Email"
+  message = "Message"
+  submit = "Send message"
+
+
+# Menu links that appear on the left sidebar
+[[menu.main]]
+  name = "Home"
+  url  = "/"
+  weight = 10
