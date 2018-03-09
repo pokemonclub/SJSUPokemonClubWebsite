@@ -176,28 +176,3 @@ paginate = 10
   name = "Home"
   url  = "/"
   weight = 10
-
-[[menu.main]]
-name = "About Us"
-url = "/#about"
-weight = 10
-
-[[menu.main]]
-name = "Calendar"
-url = "/#calendar"
-weight = 10
-
-[[menu.main]]
-name = "Regulations"
-url = "/#tournament_regulations"
-weight = 10
-
-[[menu.main]]
-name = "Tournaments"
-url = "/#tournaments"
-weight = 10
-
-[[menu.main]]
-name = "Officers"
-url = "/#officers"
-weight = 10
