@@ -2543,6 +2543,12 @@
 					color: inherit;
 				}
 
+/* Tournaments */
+
+#tournaments td {
+	font-size: 14px;
+}
+
 /* Main */
 
 	#main {
