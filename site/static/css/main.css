@@ -2487,7 +2487,7 @@
 		}
 
 		#header h1 {
-			color: rgba(255, 255, 255, 0.5);
+			color: rgba(255, 255, 255, 1);
 			font-size: 1.35em;
 			line-height: 1.75em;
 			margin: 0;
@@ -2836,7 +2836,7 @@
 
 		/* Basic */
 
-			body, input, select, textarea {
+			body, input, select, textarea, td {
 				font-size: 12pt;
 			}
 
@@ -3143,7 +3143,7 @@
 
 	#sidebar ul li a,
 	#sidebar ul li a a:visited {
-		color: #a2a2a2;
+		color: #ffffff;
 		text-decoration: none;
 	}
 
