@@ -2,6 +2,7 @@
 	<header class="major">
 		{{ with .Site.Params.calendar.title }}<h2>{{ . | markdownify }}</h2>{{ end }}
 	</header>
-  <center><iframe src="https://calendar.google.com/calendar/embed?src=sjsu.edu_1i9qld8i4qgpoovku96u62sdgs%40group.calendar.google.com&amp;ctz=America%2FLos_Angeles" style="border-width:0" width="100%" height="600" frameborder="0" scrolling="no"></iframe></center>
+  <iframe src="https://calendar.google.com/calendar/embed?src=sjsu.edu_1i9qld8i4qgpoovku96u62sdgs%40group.calendar.google.com&amp;ctz=America%2FLos_Angeles" style="border-width:0" width="75%" height="600" frameborder="0" scrolling="no"></iframe>
+	<div style="width:calc(100%-75%);max-height:800px;overflow-y:scroll;">{{ with .Site.Params.tournament_regulations.content }}<p>{{ . | markdownify }}</p>{{ end }}</div>
 	{{ with .Site.Params.calendar.content }}<p>{{ . | markdownify }}</p>{{ end }}
 </section>
