@@ -3,8 +3,8 @@
 		{{ with .Site.Params.calendar.title }}<h2>{{ . | markdownify }} and Regulations</h2>{{ end }}
 	</header>
 	<div style="display:flex;flex-direction:row;justify-content: space-around;">
-		<div style="display:flex;flex-direction:column;width:75%;"><iframe src="https://calendar.google.com/calendar/embed?src=sjsu.edu_1i9qld8i4qgpoovku96u62sdgs%40group.calendar.google.com&amp;ctz=America%2FLos_Angeles" style="border-width:0" width="75%" height="600" frameborder="0" scrolling="no"></iframe></div>
-		<div style="display:flex;flex-direction:column;width:20%;"><div style="max-height:800px;overflow:scroll;">{{ with .Site.Params.tournament_regulations.content }}<p>{{ . | markdownify }}</p>{{ end }}</div></div>
+		<div style="display:flex;flex-direction:column;width:100%;"><iframe src="https://calendar.google.com/calendar/embed?src=sjsu.edu_1i9qld8i4qgpoovku96u62sdgs%40group.calendar.google.com&amp;ctz=America%2FLos_Angeles" style="border-width:0" height="100%" frameborder="0" scrolling="no"></iframe></div>
+		<div style="display:flex;flex-direction:column;"><div style="max-height:800px;overflow:scroll;">{{ with .Site.Params.tournament_regulations.content }}<p>{{ . | markdownify }}</p>{{ end }}</div></div>
 	</div>
   <div style="display:flex;flex-direction:row;justify-content: space-around;">
 		{{ with .Site.Params.calendar.content }}<p>{{ . | markdownify }}</p>{{ end }}
