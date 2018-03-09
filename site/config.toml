@@ -31,11 +31,11 @@ paginate = 10
   # Use Markdown to format the string. This works nearly all over the theme
   bio = "**Welcome to the Pokémon Club Website!**<br> Here we have basic club info, and soon we'll also have a contact form!<br> If you haven't already, <a href=\"https://docs.google.com/forms/d/e/1FAIpQLSenLcKhnQpqiUgfmRvKnJ4XOTaeqiXxnfTJfjIN6PyVgjoXDg/viewform\">Sign Up Here!</a>"
   # The icons will be shown if you enter your username
-  twitter = "spf13"
-  github = "spf13"
-  gitlab = "spf13"
+  twitter = "SJSUPKMN"
+  github = "pokemonclub"
+  gitlab = ""
   dribbble = ""
-  facebook = ""
+  facebook = "Pokemon Club at SJSU"
   googleplus = ""
   flickr = ""
   linkedin = ""
