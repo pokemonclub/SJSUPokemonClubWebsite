@@ -138,16 +138,16 @@ paginate = 10
   [params.contact]
   hide  = false
   title = "Get In Touch"
-  content = "Accumsan pellentesque commodo blandit enim arcu non at amet id arcu magna. Accumsan orci faucibus id eu lorem semper nunc nisi lorem vulputate lorem neque lorem ipsum dolor."
+  content = "You can reach out to Pokemon Club using the following information."
 
   # This can be exact coordinates or a searchable address in google maps
-  gmaps_address = "39.7889055,-120.5443524"
+  gmaps_address = "37.3350170,-121.8810796"
   address = [
-  "1234 Somewhere Rd.",
-  "Nashville, TN 00000",
+  "1 Washington Sq",
+  "San Jose, CA 95192",
   "United States"
   ]
-  phone = "000-000-0000"
+  # phone = "000-000-0000"
 
   # Since this template is static, the contact form uses www.formspree.io as a
   # proxy. The form makes a POST request to their servers to send the actual
@@ -160,7 +160,7 @@ paginate = 10
       # - send a dummy email yourself to confirm your account
       # - click the confirm link in the email from www.formspree.io
       # - you're done. Happy mailing!
-  email = "hello@example.com"
+  email = "pokemonpres@gmail.com"
 
   [params.contact.form]
   # Set custom strings for the form if your native
