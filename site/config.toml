@@ -138,7 +138,7 @@ paginate = 10
   [params.contact]
   hide  = false
   title = "Get In Touch"
-  content = "You can reach out to Pokemon Club using the following information."
+  content = "You can reach out to Pokemon Club using the following form."
 
   # This can be exact coordinates or a searchable address in google maps
   gmaps_address = "37.3350170,-121.8810796"
