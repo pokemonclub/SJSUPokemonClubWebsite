@@ -24,6 +24,11 @@ paginate = 10
   custom_js   = []
   custom_css  = []
 
+  [params.portfolio]
+  hide = true
+
+  [params.recentposts]
+  hide = true
 
   [params.sidebar]
   # Replace the avatar with a picture of your own under static/images
