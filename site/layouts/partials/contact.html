@@ -9,14 +9,27 @@
 		<div class="8u 12u$(small)">
 			<form action="//formspree.io/{{ .Site.Params.contact.email }}" method="POST">
 				<div class="row uniform 50%">
-					<input type="hidden" name="_subject" value="New email from your portfolio" />
+					<input type="hidden" name="_subject" value="New message from sjsupokemon.club" />
 					<div class="6u 12u$(xsmall)"><input type="text" name="name" id="name" placeholder="{{ .Site.Params.contact.form.name }}" required/></div>
 					<div class="6u$ 12u$(xsmall)"><input type="email" name="_replyto" name="email" id="email" placeholder="{{ .Site.Params.contact.form.email }}" required/></div>
-					<div class="12u$"><textarea name="message" id="message" placeholder="{{ .Site.Params.contact.form.message }}" rows="4" required></textarea></div>
+					<div class="12u$"><textarea name="message" id="message" placeholder="{{ .Site.Params.contact.form.message }}" rows="2" required></textarea></div>
 					<input type="text" name="_gotcha" style="display:none" />
 
 					<ul class="actions">
 						<li><input type="submit" value="{{ .Site.Params.contact.form.submit }}" /></li>
+					</ul>
+				</div>
+			</form>
+			<form action="//formspree.io/{{ .Site.Params.contact.replays_email }}" method="POST">
+				<div class="row uniform 50%">
+					<input type="hidden" name="_subject" value="New replay submission" />
+					<div class="6u 12u$(xsmall)"><input type="text" name="name" id="name" placeholder="{{ .Site.Params.contact.replay.name }}" required/></div>
+					<div class="6u$ 12u$(xsmall)"><input type="email" name="_replyto" name="email" id="email" placeholder="{{ .Site.Params.contact.replay.email }}" required/></div>
+					<div class="12u$"><textarea name="message" id="message" placeholder="{{ .Site.Params.contact.replay.message }}" rows="1" required></textarea></div>
+					<input type="text" name="_gotcha" style="display:none" />
+
+					<ul class="actions">
+						<li><input type="submit" value="{{ .Site.Params.contact.replay.submit }}" /></li>
 					</ul>
 				</div>
 			</form>

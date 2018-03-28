@@ -166,6 +166,7 @@ paginate = 10
       # - click the confirm link in the email from www.formspree.io
       # - you're done. Happy mailing!
   email = "pokemonpres@gmail.com"
+  replays_email = "clubreplays@gmail.com"
 
   [params.contact.form]
   # Set custom strings for the form if your native
@@ -173,6 +174,14 @@ paginate = 10
   name = "Name"
   email = "Email"
   message = "Message"
+  submit = "Send message"
+
+  [params.contact.replay]
+  # Set custom strings for the form if your native
+  # language isn't English
+  name = "Showdown Name"
+  email = "Email"
+  message = "Replay Link(s)"
   submit = "Send message"
 
 
