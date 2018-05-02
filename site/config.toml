@@ -84,6 +84,7 @@ paginate = 10
   Link                                                                                                                    | Active?
   ------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------
   [Regulations for ALL Tournaments](https://docs.google.com/document/d/1d5JiFS_6BsYqIfMRnN7J20UPxzovNyXQ179j2T9YVAo/edit) | <p style="color:green;outline-color:black;">Active</p>
+  [Monotype Doubles](https://docs.google.com/document/d/10bvuT5r5mqwMuy6pmnEh_4MNo45QY4yW4A2uIpQa8GA/edit)                | <p style="color:green;outline-color:black;">Active</p>
   [Contest Tournament](https://docs.google.com/document/d/1q15GqdMIj3aiA3s64VkQRVKDJdbry0dsh2YZKelb9-w/edit)              | <p style="color:red;outline-color:black;">Inactive</p>
   [Favorite Pokemon](https://docs.google.com/document/d/1Oi0WhzGesphmcFN4FWQk3DlJ_i-x3mFZZkVdVatRvUY/edit?usp=sharing)    | <p style="color:green;outline-color:black;">Active</p>
   [Generation 1 Tournament](https://docs.google.com/document/d/1asPIVJJLAUJJiKZlfovNGp2ehuDs6oCmmeJPLhWHY4s/edit)         | <p style="color:red;outline-color:black;">Inactive</p>
@@ -112,6 +113,7 @@ paginate = 10
   content = """
   Tournament      | Date       | First                         | Second                              | Third                              | Link
   --------------- | ---------- | ----------------------------- | ----------------------------------- | ---------------------------------- | ----
+  Little Cup      | 04/20/2018 | Nick Boyd                     | Javier Ayala                        | Terry Myers                        | [Link](https://challonge.com/FLC18 "Little Cup")
   Draft           | 03/23/2018 | Jason Yan                     | Tad Mikasa                          | Nick Boyd                          | [Link](https://challonge.com/DS2018 "Draft")
   Team Rocket     | 02/23/2018 | Andrew TBD                    | Claude Michel                       | Will Giallo                        | [Link](https://challonge.com/TRS2018 "Team Rocket")
   OU              | 02/09/2018 | Nick Boyd                     | Andrew TBD                          | Javier Ayala                       | [Link](https://challonge.com/SJSUOUS17 "OU")
