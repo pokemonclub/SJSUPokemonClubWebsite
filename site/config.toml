@@ -34,7 +34,7 @@ paginate = 10
   # Replace the avatar with a picture of your own under static/images
   avatar = "avatar.jpg"
   # Use Markdown to format the string. This works nearly all over the theme
-  bio = "**Welcome to the Pokémon Club Website!**<br> Here we have basic club info, and soon we'll also have a contact form!<br> If you haven't already, <a href=\"https://docs.google.com/forms/d/e/1FAIpQLSenLcKhnQpqiUgfmRvKnJ4XOTaeqiXxnfTJfjIN6PyVgjoXDg/viewform\">Sign Up Here!</a>"
+  bio = "**Welcome to the Pokémon Club Website!**<br> Here we have basic club info, and soon we'll also have a contact form!<br> If you haven't already, <a href=\"https://docs.google.com/forms/d/e/1FAIpQLSf0xMwUsxfo4O_8DmYTL3PK4BjgUTGSQ5ILQx5uk-HWYdx5mA/viewform\">Sign Up Here!</a>"
   # The icons will be shown if you enter your username
   twitter = "SJSUPKMN"
   github = "pokemonclub"
@@ -55,7 +55,7 @@ paginate = 10
   [params.about]
   hide  = false
   title = "About Us"
-  content = "[Join Us!](https://docs.google.com/forms/d/e/1FAIpQLSenLcKhnQpqiUgfmRvKnJ4XOTaeqiXxnfTJfjIN6PyVgjoXDg/viewform)<br>This club draws on nostalgia and is a growing community that is welcoming to all who share the same interest, or are just beginning to share that interest! Pokemon Club is new to Campus as of Spring 2015, but it is undeniable that this club provides its members with a sense of community outside of their rooms and outside of their jobs. Come join us at club, make new friends, rivals, and discover what it is like to be a part of our growing community. Remember, anyone can join, and there are no member fees! [Sign up here!](https://docs.google.com/forms/d/e/1FAIpQLSenLcKhnQpqiUgfmRvKnJ4XOTaeqiXxnfTJfjIN6PyVgjoXDg/viewform) You can also buy our Club T-shirt [here!](https://www.teepublic.com/show/372613-pokemon-club-t-shirt-2016)"
+  content = "[Join Us!](https://docs.google.com/forms/d/e/1FAIpQLSf0xMwUsxfo4O_8DmYTL3PK4BjgUTGSQ5ILQx5uk-HWYdx5mA/viewform)<br>This club draws on nostalgia and is a growing community that is welcoming to all who share the same interest, or are just beginning to share that interest! Pokemon Club is new to Campus as of Spring 2015, but it is undeniable that this club provides its members with a sense of community outside of their rooms and outside of their jobs. Come join us at club, make new friends, rivals, and discover what it is like to be a part of our growing community. Remember, anyone can join, and there are no member fees! [Sign up here!](https://docs.google.com/forms/d/e/1FAIpQLSf0xMwUsxfo4O_8DmYTL3PK4BjgUTGSQ5ILQx5uk-HWYdx5mA/viewform) You can also buy our Club T-shirt [here!](https://www.teepublic.com/show/372613-pokemon-club-t-shirt-2016)"
 
   [params.calendar]
   hide = false
