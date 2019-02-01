@@ -25,10 +25,10 @@ paginate = 10
   custom_css  = []
 
   [params.portfolio]
-  hide = true
+  hide = false
 
   [params.recentposts]
-  hide = true
+  hide = false
 
   [params.sidebar]
   # Replace the avatar with a picture of your own under static/images
@@ -117,11 +117,11 @@ paginate = 10
   --------------- | ---------- | ----------------------------- | ----------------------------------- | ---------------------------------- | ----
   Little Cup      | 04/20/2018 | Nick Boyd                     | Javier Ayala                        | Terry Myers                        | [Link](https://challonge.com/FLC18 "Little Cup")
   Draft           | 03/23/2018 | Jason Yan                     | Tad Mikasa                          | Nick Boyd                          | [Link](https://challonge.com/DS2018 "Draft")
-  Team Rocket     | 02/23/2018 | Andrew TBD                    | Claude Michel                       | Will Giallo                        | [Link](https://challonge.com/TRS2018 "Team Rocket")
-  OU              | 02/09/2018 | Nick Boyd                     | Andrew TBD                          | Javier Ayala                       | [Link](https://challonge.com/SJSUOUS17 "OU")
+  Team Rocket     | 02/23/2018 | Andrew Bathgate               | Claude Michel                       | Will Giallo                        | [Link](https://challonge.com/TRS2018 "Team Rocket")
+  OU              | 02/09/2018 | Nick Boyd                     | Andrew Bathgate                     | Javier Ayala                       | [Link](https://challonge.com/SJSUOUS17 "OU")
   Halloween       | 10/27/2017 | TBD                           | TBD                                 | TBD                                | [Link](http://challonge.com/F17HT "Halloween")
   NU              | 10/13/2017 | Nick Boyd                     | Rianna "Bops" Nandan                | Matt Griffin                       | [Link](http://challonge.com/SJSUNUF2017 "NU")
-  VGC             | 09/29/2017 | Andrew TBD                    | Kevin Nguyen                        | Anna Wong                          | [Link](http://challonge.com/SJSUVGC17F "VGC")
+  VGC             | 09/29/2017 | Andrew Bathgate               | Kevin Nguyen                        | Anna Wong                          | [Link](http://challonge.com/SJSUVGC17F "VGC")
   Team Rocket 2.0 | 09/15/2017 | TBD                           | TBD                                 | TBD                                | [Link](http://challonge.com/SJSUTR2017F "Team Rocket 2.0")
   Team Rocket     | 02/03/2017 | Nick Boyd                     | Will Giallo                         | Ed Martinez                        | [Link](http://challonge.com/SJSUTR2017 "Team Rocket ")
   Monotype        | 12/02/2016 | Rianna "Bops" Nandan          | Nick Boyd                           | Yair Aragundi                      | [Link](http://challonge.com/MonotypeFall16 "Monotype")
