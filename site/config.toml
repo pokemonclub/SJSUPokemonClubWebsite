@@ -25,10 +25,10 @@ paginate = 10
   custom_css  = []
 
   [params.portfolio]
-  hide = false
+  hide = true
 
   [params.recentposts]
-  hide = false
+  hide = true
 
   [params.sidebar]
   # Replace the avatar with a picture of your own under static/images
@@ -67,7 +67,7 @@ paginate = 10
   title = "Officers"
   content = """
   Semester                                | President(s)                              | Vice President  | Treasurer       | Secretary           | Historian             | Event Coordinator(s)                                   | Publicist               | Media Manager      | Web Developer   | Jr. Web Developer | Pokémon Go Walk Leader(s)
-  ----------------------------------------|-------------------------------------------|-----------------|-----------------|---------------------|-----------------------|--------------------------------------------------------|-------------------------|--------------------|-----------------|-------------------|----------------------------------
+  ----------------------------------------|-------------------------------------------|-----------------|-----------------|---------------------|-----------------------|--------------------------------------------------------|-------------------------|--------------------|-----------------|-------------------|------------------------------------
   Spring 2019: Evolution                  | Shawn Jones-Trammell                      | George McIntyre | George McIntyre | Darrien Cosico-Tran | Javier Ayala-Mora     | Andrew Bathgate, George McIntyre, Darrien Cosico-Tran  | Roxas Nick              | Eduardo Martinez   | George McIntyre | N/A               | George McIntyre, Andrew Bathgate
   Fall 2018: Turning the Tides            | Shawn Jones-Trammell                      | William Giallo  | George McIntyre | N/A                 | Javier Ayala-Mora     | Tad Mikasa                                             | Roxas Nick              | Eduardo Martinez   | George McIntyre | N/A               | George McIntyre
   Spring 2018: Upgrading Gala             | Shawn Jones-Trammell, Patrick Rettinhouse | N/A             | Jason Yan       | N/A                 | Khaila Zherine Flores | Tad Mikasa                                             | Roxas Nick              | Eduardo Martinez   | Nick Boyd       | N/A               | N/A
