@@ -28,7 +28,7 @@ paginate = 10
   hide = true
 
   [params.recentposts]
-  hide = true
+  hide = false
 
   [params.sidebar]
   # Replace the avatar with a picture of your own under static/images
