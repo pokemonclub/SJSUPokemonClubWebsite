@@ -32,7 +32,7 @@ paginate = 10
 
   [params.sidebar]
   # Replace the avatar with a picture of your own under static/images
-  avatar = "avatar.jpg"
+  avatar = "sjsu_logo_discord.png"
   # Use Markdown to format the string. This works nearly all over the theme
   bio = "**Welcome to the Pokémon Club Website!**<br> Here we have basic club info, and soon we'll also have a contact form!<br> If you haven't already, <a href=\"https://goo.gl/forms/4RyVEyR0WDAlhiHh1\">Sign Up Here!</a>"
   # The icons will be shown if you enter your username
