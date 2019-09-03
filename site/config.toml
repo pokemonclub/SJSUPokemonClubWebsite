@@ -60,7 +60,7 @@ paginate = 10
   [params.calendar]
   hide = false
   title = "Calendar"
-  content = "Every month we will have events prepared for our members. These events include Pokémon GO walks, game nights, movie nights, lure parties, tournaments, and various collaborations. Keep an eye out for our upcoming events- they are available on this calendar. <br>More details and information about each event of this month can be found [here](https://example.com)."
+  content = "Every month we will have events prepared for our members. These events include Pokémon GO walks, game nights, movie nights, lure parties, tournaments, and various collaborations. Keep an eye out for our upcoming events- they are available on this calendar. <br>More details and information about each event of this month can be found by joining the Discord server [here](http://discord.gg/sjsu-pokemon-club)."
 
   [params.officers]
   hide = false
