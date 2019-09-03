@@ -34,7 +34,7 @@ paginate = 10
   # Replace the avatar with a picture of your own under static/images
   avatar = "avatar.jpg"
   # Use Markdown to format the string. This works nearly all over the theme
-  bio = "**Welcome to the Pokémon Club Website!**<br> This website contains basic info about the club.  Our Social media links are below. <br> If you haven't already, <a href=\"https://forms.gle/MLw2xhG6bWhKdZuL6\">Sign Up Here!</a>"
+  bio = "**Welcome to the Pokémon Club Website!**<br> This website contains basic info about the club. <br> Our Social media links are below. <br> If you haven't already, <a href=\"https://forms.gle/MLw2xhG6bWhKdZuL6\">Sign Up Here!</a>"
   # The icons will be shown if you enter your username
   twitter = "SJSUPKMN"
   github = "pokemonclub"
@@ -175,7 +175,7 @@ paginate = 10
       # - click the confirm link in the email from www.formspree.io
       # - you're done. Happy mailing!
   email = "pokemonpres@gmail.com"
-  replays_email = "clubreplays@gmail.com"
+  replays_email = "pokemonpres@gmail.com"
 
   [params.contact.form]
   # Set custom strings for the form if your native
