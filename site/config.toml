@@ -38,12 +38,12 @@ paginate = 10
   # The icons will be shown if you enter your username
   twitter = "SJSUPKMN"
   github = "pokemonclub"
-  gitlab = ""
-  dribbble = ""
+  gitlab = "test"
+  dribbble = "test"
   facebook = "groups/SJSUPKMN"
-  googleplus = ""
-  flickr = ""
-  linkedin = ""
+  googleplus = "test"
+  flickr = "test"
+  linkedin = "test"
 
   copyright = [
   "&copy; Pokémon Club at SJSU",
@@ -55,7 +55,7 @@ paginate = 10
   [params.about]
   hide  = false
   title = "About Us"
-  content = "[Join us for the Fall 2019 semester!](https://forms.gle/MLw2xhG6bWhKdZuL6)<br>This club draws on nostalgia and is a growing community that is welcoming to all who share the same interest, or are just beginning to share that interest! Pokémon Club is new to Campus as of Spring 2015, but it is undeniable that this club provides its members with a sense of community outside of their rooms and outside of their jobs. Come join us at club, make new friends, rivals, and discover what it is like to be a part of our growing community. Remember, anyone can join, and there are no member fees! [Sign up here!](https://forms.gle/MLw2xhG6bWhKdZuL6) You can also buy our Club T-shirt [here!](https://www.teepublic.com/show/372613-pokemon-club-t-shirt-2016)"
+  content = "[Click here to sign-up for the Fall 2019 semester!](https://forms.gle/MLw2xhG6bWhKdZuL6)<br>This club draws on nostalgia and is a growing community that is welcoming to all who share the same interest, or are just beginning to share that interest! Pokémon Club has been a Recognized Student Organization at SJSU since Spring 2015, and since then, this club has been providing its members with a sense of community outside of their rooms and outside of their jobs. Come join us at club, make new friends, rivals, and discover what it is like to be a part of our growing community. Remember, anyone can join, and there are no member fees! <br> [Join our main Discord server for updates and socialization outside club!](http://discord.gg/sjsu-pokemon-club) <br> For the server dedicated to Pokémon GO at SJSU, [join our other server!](http://discord.io/SJSUJPoGo)"
 
   [params.calendar]
   hide = false
@@ -68,7 +68,7 @@ paginate = 10
   content = """
   Semester                                | President             | Vice President      | Treasurer          | Secretary           | Historian             | Event Coordinator(s) | Publicist               | Media Manager      | Web Developer   | Jr. Web Developer | Pokémon Go Walk Leader(s)
   ----------------------------------------|-----------------------|---------------------|--------------------|---------------------|-----------------------|----------------------|-------------------------|--------------------|-----------------|-------------------|--------------------------
-  Fall 2019: Let's GO!                    | George McIntyre       | Darian Cosico-Tran  | Darian Cosico-Tran | Alex Wong           | Jameson Swan          | Matthew Griffin      | Sarah Villarin          | Sarah Villarin     | George McIntyre | All officers      | George McIntyre, Sarah Villarin
+  Fall 2019: Let's GO!                    | George McIntyre       | Sarah Villarin      | Darian Cosico-Tran | Alex Wong           | Jameson Swan          | Matthew Griffin      | Sarah Villarin          | Sarah Villarin     | George McIntyre | All officers      | George McIntyre, Sarah Villarin
   Spring 2019: Evolution                  | Shawn Jones-Trammell  | George McIntyre     | George McIntyre    | Darian Cosico-Tran  | Alex Wong             | Andrew Bathgate      | Sarah Villarin          | Sarah Villarin     | George McIntyre | N/A               | George McIntyre, Andrew Bathgate
   Fall 2018: Turning the Tides            | Shawn Jones-Trammell  | William Giallo      | George McIntyre    | N/A                 | Javier Ayala-Mora     | Tad Mikasa           | Roxas Nick              | Eduardo Martinez   | George McIntyre | N/A               | George McIntyre, Andrew Bathgate
   Spring 2018: Upgrading Gala             | Shawn Jones-Trammell  | Patrick Rettinhouse | Jason Yan          | N/A                 | Khaila Zherine Flores | Tad Mikasa           | Roxas Nick              | Eduardo Martinez   | Nick Boyd       | N/A               | N/A
